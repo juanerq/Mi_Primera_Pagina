@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+body{
+    background:url("/Images/textura.jpg") top right;
+	background-attachment:fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contenido{
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color:#FFFFFF;
+	width:1024px;
+	margin:0 auto;
+    box-shadow: 0px 0px 8px 0px rgb(46, 16, 51);
+}
+
+
+h1{
+    color: white;
+    font-size: 45px;
+	width:650px;
+    height: 50px;
+    line-height: 45px;
+    margin: 25px 50px 45px 180px;
+    border-radius:10px;
+    background-color: rgb(128, 11, 163);
+    box-shadow:4px 4px 10px 0px rgb(43, 2, 49);
+    padding: 12px 7px;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+}
+header img{
+    border-radius: 10px;
+    margin: 0 8px;
+    box-shadow: 0px 1px 10px 1px rgb(32, 17, 34);
+}
+.clear{
+	clear:both;
+}
+
+nav ul{
+    text-align: center;
+    height: 65px;
+	line-height:65px;
+    border-radius:8px;
+    padding: 0;
+    background-color: rgb(206, 141, 250);
+
+}
+nav ul li{
+	display:inline;
+
+}
+nav ul li a{
+    border-radius:8px;
+    margin: 0 65px;
+    background-color: #840ca1;
+    box-shadow:2px 2px 2px rgb(57, 4, 65);
+    padding: 8px 12px;
+    font-size: 20px;    
+    color: white;
+    text-decoration:none;
+}    
+nav ul li a:hover{
+
+    background-color: #580c6b;
+    padding: 10px 12px;
+    box-shadow:0px 0px 35px 0px rgb(144, 7, 207);
+}
+
+section{
+    text-align: center;
+}
+section h2{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.seccionUno{
+    padding: 15px;
+    
+}
+.seccionUno img{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+.seccionUno h2{
+    float: left;
+    text-align: center;
+    width: 67%;
+    margin: 20px 0;
+
+}
+.seccionUno p{
+    text-align: center;
+    padding: 12px;
+    float: right;
+    width: 65%;
+    margin: 0;
+}
+
+.seccionDos{
+    padding: 15px;
+}
+.diseñoUno img{
+    float: left;
+    width: 40%;
+}
+.diseñoUno p{
+    text-align: center;
+    width: 40%;
+}
+
+.diseñoDos img{
+    float: left;
+    width: 40%;
+}
+.diseñoDos p{
+    text-align: center;
+    width: 40%;
+}
